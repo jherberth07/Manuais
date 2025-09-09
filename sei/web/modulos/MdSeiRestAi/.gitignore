@@ -1,0 +1,52 @@
+# Arquivos e diretórios a serem ignorados pelo Git
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+*.log.*
+
+# Sistema operacional
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporários
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Caches
+cache/
+*.cache
+.cache/
+
+# Configurações locais
+config/local/
+config.local.php
+.env
+.env.local
+
+# Uploads temporários
+uploads/temp/
+tmp/
+
+# Dependências
+node_modules/
+vendor/
+
+# Builds
+dist/
+build/
+
+# PHP
+*.phpunit.result.cache
